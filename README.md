@@ -4,7 +4,7 @@ The console application was created to parse JSON and CSV files  and print the r
 # Description task
 **Input data** <br />
 
-1. CSV file.  <br /> 
+CSV file.  <br /> 
 Column assignment: * <br />
 Order ID, amount, currency, comment <br />
 <br />
@@ -12,7 +12,7 @@ Example of recording: * <br />
 1,100, USD, order payment <br />
 2,123, EUR, order payment <br />
 <br />
-2. JSON file. <br />
+JSON file. <br />
 Example of recording: * <br />
 {“OrderId”: 2, ”amount”: 1.23, ”currency”: ”USD”, ”comment”: ”order payment”} <br />
 {“OrderId”: 3, ”amount”: 1.24, ”currency”: ”EUR”, ”comment”: ”order payment”} <br />
