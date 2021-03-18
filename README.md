@@ -2,7 +2,7 @@
 The console application was created to parse JSON and CSV files  and print the results out
 
 # Description task
-Input data <br />
+##Input data <br />
 
 CSV file.  <br /> 
 Column assignment: * <br />
@@ -17,7 +17,7 @@ Example of recording: * <br />
 {“OrderId”: 2, ”amount”: 1.23, ”currency”: ”USD”, ”comment”: ”order payment”} <br />
 {“OrderId”: 3, ”amount”: 1.24, ”currency”: ”EUR”, ”comment”: ”order payment”} <br />
 <br />
-Output: <br />
+##Output: <br />
 {“Id”: 1, ”amount”: 100, ”comment”: ”order payment”, ”filename”: ”orders.csv”, ”line”: 1, ”result”: ”OK”}<br />
 {“Id”: 2, ”amount”: 123, ”comment”: ”order payment”, ”filename”: ”orders.csv”, ”line”: 2, ”result”: ”OK”}<br />
 {“Id”: 3, ”amount”: 1.23, ”comment”: ”order payment”, ”filename”: ”orders.json”, ”line”: 1, ”result”: ”OK”}<br />
