@@ -39,7 +39,22 @@ It is necessary to develop an application for parsing incoming data and converti
 1. Requires a simple solution to the problem, as if the application could be supported and maintained by other less experienced developers
 2. The application must be implemented using the ** Spring ** framework.
 3. The source code of the application must be formatted as a ** maven ** project and placed on ** GitHub **. It is allowed to use dependencies ** only from public repositories **.
-4. The assembly of the final application should be done with the command:
+4. The assembly of the final application should be done with the command: **mvn clean install*
+
+**Requirenments**
+1. The application must be console. Example run command: ** java -jar orders_parser.jar orders1.csv orders2.json **
+- where ** orders1.csv ** and ** orders2.json ** are files for parsing.
+2. The result of execution should be output to the ** stdout ** stream.
+
+Note: only output data should go to ** stdout **, no logs should be there.
+
+1. Parsing and converting should be performed in parallel in several threads.
+2. It is necessary to provide for correct error handling in the source files.
+
+For example, instead of a number, the file may contain a string value in the ** amount ** field.
+
+1. It is allowed to use language tools no higher than Java 8.
+2. It is necessary to consider the possibility of adding new input data formats. For example: XLSX
 
 # Quick start
 git clone https://github.com/RuslanKhaliullin/TestingApp.git <br />
