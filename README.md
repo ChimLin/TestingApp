@@ -34,7 +34,7 @@ Example of recording: * <br />
 - or a description of the error if the record could not be converted.
 <br />
 
-**Task description:**
+**Task description:**<br />
 It is necessary to develop an application for parsing incoming data and converting the parsing result into the resulting format.
 1. Requires a simple solution to the problem, as if the application could be supported and maintained by other less experienced developers
 2. The application must be implemented using the ** Spring ** framework.
