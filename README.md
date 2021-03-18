@@ -2,7 +2,6 @@
 The console application was created to parse JSON and CSV files  and print the results out
 
 # Description task
-
 Input data <br />
 <br />
 1. CSV file.  <br /> 
