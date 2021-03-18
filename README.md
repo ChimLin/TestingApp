@@ -32,6 +32,15 @@ Example of recording: * <br />
 - result - the result of parsing the source file record.
 - OK - if the record has been converted correctly,
 - or a description of the error if the record could not be converted.
+<br />
+**Task description:**
+
+It is necessary to develop an application for parsing incoming data and converting the parsing result into the resulting format.
+
+1. Requires a simple solution to the problem, as if the application could be supported and maintained by other less experienced developers
+2. The application must be implemented using the ** Spring ** framework.
+3. The source code of the application must be formatted as a ** maven ** project and placed on ** GitHub **. It is allowed to use dependencies ** only from public repositories **.
+4. The assembly of the final application should be done with the command:
 
 # Quick start
 git clone https://github.com/RuslanKhaliullin/TestingApp.git <br />
