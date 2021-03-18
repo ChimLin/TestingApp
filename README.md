@@ -3,7 +3,7 @@ The console application was created to parse JSON and CSV files  and print the r
 
 # Description task
 Input data <br />
-<br />
+
 1. CSV file.  <br /> 
 * Column assignment: * <br />
 Order ID, amount, currency, comment <br />
