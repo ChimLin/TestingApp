@@ -42,7 +42,7 @@ It is necessary to develop an application for parsing incoming data and converti
 4. The assembly of the final application should be done with the command: **mvn clean install*
 
 **Requirenments**
-1. The application must be console. Example run command:                                                                                                                        -- ** java -jar orders_parser.jar orders1.csv orders2.json **
+1. The application must be console. Example run command: <br />                                                                                                                    - ** java -jar orders_parser.jar orders1.csv orders2.json **
 - where ** orders1.csv ** and ** orders2.json ** are files for parsing.
 2. The result of execution should be output to the ** stdout ** stream.
 
