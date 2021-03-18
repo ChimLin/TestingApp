@@ -8,7 +8,7 @@ CSV file.  <br />
 Column assignment: * <br />
 Order ID, amount, currency, comment <br />
 <br />
-* Example of recording: * <br />
+Example of recording: * <br />
 1,100, USD, order payment <br />
 2,123, EUR, order payment <br />
 <br />
